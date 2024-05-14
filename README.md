@@ -42,11 +42,3 @@ The Python scripts for these algorithms take a list of disk requests from a text
 4. `c_scan_algorithm(requests, initial_position, total_cylinders, sort_requests)`
    - Implements the C-SCAN algorithm.
    - `sort_requests`: A flag to choose between handling requests as they appear or sorting them.
-
-### How to Run the Code
-
-1. Make sure Python is installed on your system.
-2. Place the disk request file in the same directory as the script or provide the path to the file.
-3. Run the script from a terminal or command line:
-   ```bash
-   python disk_scheduling.py
